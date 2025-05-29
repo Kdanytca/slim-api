@@ -16,8 +16,8 @@ require __DIR__ . '/../modelos/Jugador.php';
 
 $app = AppFactory::create();
 
-$app->get('/hola', function (Peticion $peticion, Respuesta $respuesta) {
-    $respuesta->getBody()->write("Hola mundo desde Slim");
+$app->get('/', function (Peticion $peticion, Respuesta $respuesta) {
+    $respuesta->getBody()->write("Bienvenido a la API Slim");
     return $respuesta;
 });
 
