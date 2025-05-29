@@ -9,7 +9,7 @@ use Slim\Factory\AppFactory;
 
 require __DIR__ . '/../vendor/autoload.php';
 $bd = require __DIR__ . '/../config.php';
-require __DIR__ . '/../modelos/Equipos.php';
+require __DIR__ . '/../modelos/equipos.php';
 require __DIR__ . '/../modelos/Jugador.php';
 
 
